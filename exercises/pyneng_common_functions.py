@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 import re
 import os
 from jinja2 import Environment, FileSystemLoader
-import yaml
+#import yaml
 import textfsm
 
 

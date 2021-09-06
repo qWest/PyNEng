@@ -26,3 +26,8 @@
 """
 
 ip = "192.168.3.1"
+split_ip = ip.split('.')
+str = '{:10}'*4
+print(str.format(split_ip[0],split_ip[1],split_ip[2],split_ip[3]))
+str = '{:08b}  '*4
+print(str.format(int(split_ip[0]),int(split_ip[1]),int(split_ip[2]),int(split_ip[3])))
